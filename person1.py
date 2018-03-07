@@ -5,7 +5,7 @@ chars = '''ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./;'[]
 times = int(input('[.]Number of passwords?\n[.]'))
 length = int(input('[.]Password length?\n[.]'))
 
-f = open('path/intercept/location','w')
+f = open('xyz','w')
 
 for i in range(times):
 	password = ''
