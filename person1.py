@@ -5,7 +5,7 @@ chars = '''ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./;'[]
 times = int(input('[.]Number of passwords?\n[.]'))
 length = int(input('[.]Password length?\n[.]'))
 
-f = open('xyz','w')
+f = open('path/location','w')
 
 for i in range(times):
 	password = ''
@@ -13,9 +13,3 @@ for i in range(times):
 		password += random.choice(chars)
 
 	print('[.]',password,sep='')
-
-
-	password = password + '\n'
-	f.write(password)
-
-f.close()
